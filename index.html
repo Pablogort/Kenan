@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link rel="shortcut icon" href="&#75;" />
+
+    <meta
+      property="og:url"
+      content="https://pablogort.github.io/Kenan/"
+    />
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <script defer src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script defer src="script.js"></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.1/js/all.js"
+      data-auto-a11y="true"
+    ></script>
+    <script defer src="https://friconix.com/cdn/friconix.js"></script>
+    <script
+      defer
+      src="https://code.iconify.design/1/1.0.7/iconify.min.js"
+    ></script>
+    <title>Kenan Ouwer | Portfolio</title>
+  </head>
+  <body>
+    <!-- BACK TO TOP BUTTON -->
+    <button id="back-to-top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- HEADER -->
+    <header id="home">
+      <nav id="nav" aria-label="Main menu">
+        <div class="logo">
+          <h3>Kenan <span>Ouwer</span></h3>
+        </div>
+
+        <ul class="links">
+          <li>
+            <a href="#home" class="link"><i class="fas fa-home"></i> Home</a>
+          </li>
+          <li>
+            <a href="#about" class="link"><i class="fas fa-user"></i> About</a>
+          </li>
+          <li>
+            <a href="#skills" class="link"
+              ><i class="fas fa-tools"></i> Skills</a
+            >
+          </li>
+          <li>
+            <a href="#projects" class="link"
+              ><i class="fab fa-codepen"></i> Projects</a
+            >
+          </li>
+          <li>
+            <a href="#resume" class="link"
+              ><i class="fas fa-briefcase"></i> Resume</a
+            >
+          </li>
+
+          <!-- DARK MODE TOGGLE -->
+          <div class="color-toggle-container">
+            <input type="checkbox" id="color-toggle-input" />
+            <label for="color-toggle-input" class="color-toggle-label">
+              <div class="color-toggle"></div>
+            </label>
+          </div>
+        </ul>
+
+        <div class="hamburger-menu" id="hamburger-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+
+      <!-- HERO SECTION -->
+      <div class="hero">
+        <h1 class="h1">Hi, I'm a <span class="animate"></span></h1>
+        <p class="student" id="student">
+          Full-time student with passion for web development.
+        </p>
+        <div class="hero-btns">
+          <a href="#about" class="about" id="about-btn">About me</a>
+          <a href="#projects" class="projects-btn" id="projects-btn"
+            >Projects</a
+          >
+        </div>
+      </div>     
+    </header>
+
+    <!-- ABOUT ME -->
+    <section id="about">
+      <div class="container-about">
+        <div class="about-me" id="about-me">
+          <h2><span>About</span> Me</h2>
+          <p>
+            I'm currently an undergraduate looking to improve my software and
+            web development knowledge. I study at Sintlucas, and I'm majoring
+            in Web development. My programming journey kickstarted when learning to
+            make a simple HTML website on Window's notepad program. I worked also in group
+            projects at school With artist some of the projects went well so I like working with a team. Besides coding, I like crusing with a longboard
+            and Read books, Gymming, and Watch series.
+          </p>
+        </div>
+        <div class="student-img">
+          <img
+            src="./images/Working_man.png"
+            height="637,5px"
+            width="412,5px"
+            alt="working"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <div class="header" id="header">
+        <h2>My <span>Skills</span></h2>
+      </div>
+
+      <div class="container" id="container">
+        <div class="languages">
+          <p><i class="fas fa-code"></i></p>
+          <h3>Languages</h3>
+          <span
+            >JavaScript
+            <span
+              class="iconify"
+              data-icon="logos:javascript"
+              data-inline="false"
+            ></span>
+            <span
+              class="iconify"
+              data-icon=""
+              data-inline="false"
+            ></span
+          ></span>
+          <br />
+      
+          <span
+            >MYSQL
+            <span class="iconify" data-icon="vscode-icons:file-type-sql"></span
+          ></span>
+          <br />
+          <span
+            >HTML
+            <span
+              class="iconify"
+              data-icon="logos:html-5"
+              data-inline="false"
+            ></span
+          ></span>
+          <br />
+          <span
+            >CSS/SASS
+            <span
+              class="iconify"
+              data-icon="logos:css-3"
+              data-inline="false"
+            ></span>
+            <span
+              class="iconify"
+              data-icon="logos:sass"
+              data-inline="false"
+            ></span
+          ></span>
+        </div>
+
+        <div class="technologies">
+          <p><i class="fas fa-tools"></i></p>
+          <h3>Other</h3>
+          <span
+            >WireFrame
+            <span
+              class="iconify"
+            ></span
+          ></span>
+          <br />
+          <span>
+            WebKit
+            <span
+              class="iconify"
+
+            ></span
+          ></span>
+          <br />
+          <span
+            >Photoshop <span class="iconify"> </span>
+          </span>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECT SHOWCASE -->
+    <section id="projects">
+      <div class="header" id="header">
+        <h2>My <span>Projects</span></h2>
+      </div>
+
+      <div class="container reveal">
+        <div class="card" id="card">
+          <div class="card-img card12"></div>
+          <div class="card-text">
+            <h2>Project</h2>
+            <p>text</p>
+            <br />
+            <p class="made-with">
+              Made with:
+            </p>
+            <br />
+          </div>
+          <div class="card-buttons">
+            <a
+              href=""
+              target="_blank"
+              class="demo"
+              ><i class="far fa-eye"></i> Demo</a
+            >
+            <a
+              href=""
+              target="_blank"
+              class="code"
+              ><i class="fas fa-code"></i> Code</a
+            >
+          </div>
+        </div>
+
+        <div class="card" id="card">
+          <div class="card-img card11"></div>
+          <div class="card-text">
+            <h2>Project</h2>
+            <p>text</p>
+            <br />
+            <p class="made-with">
+              Made with:
+            </p>
+            <br />
+          </div>
+          <div class="card-buttons">
+            <a
+              href=""
+              target="_blank"
+              class="demo"
+              ><i class="far fa-eye"></i> Demo</a
+            >
+            <a
+              href=""
+              target="_blank"
+              class="code"
+              ><i class="fas fa-code"></i> Code</a
+            >
+          </div>
+        </div>
+
+        <div class="card" id="card">
+          <div class="card-img card10"></div>
+          <div class="card-text">
+            <h2>Project</h2>
+            <p>text</p>
+            <br />
+            <p class="made-with">
+              Made with:
+            </p>
+            <br />
+          </div>
+          <div class="card-buttons">
+            <a
+              href=""
+              target="_blank"
+              class="demo"
+              ><i class="far fa-eye"></i> Demo</a
+            >
+            <a
+              href=""
+              target="_blank"
+              class="code"
+              ><i class="fas fa-code"></i> Code</a
+            >
+          </div>
+        </div>
+
+        <div class="card" id="card">
+          <div class="card-img card1"></div>
+          <div class="card-text">
+            <h2>Project</h2>
+            <p>text</p>
+            <br />
+            <p class="made-with">
+              Made with:
+            </p>
+            <br />
+          </div>
+          <div class="card-buttons">
+            <a
+              href=""
+              target="_blank"
+              class="demo"
+              ><i class="far fa-eye"></i> Demo</a
+            >
+            <a
+              href=""
+              target="_blank"
+              class="code"
+              ><i class="fas fa-code"></i> Code</a
+            >
+          </div>
+        </div>
+
+        <div class="card" id="card">
+          <div class="card-img card2"></div>
+          <div class="card-text">
+            <h2>Project</h2>
+            <p>text</p>
+            <br />
+            <p class="made-with">
+              Made with:
+
+            </p>
+            <br />
+          </div>
+          <div class="card-buttons">
+            <a
+              href=""
+              target="_blank"
+              class="demo"
+              ><i class="far fa-eye"></i> Demo</a
+            >
+            <a
+              href=""
+              target="_blank"
+              class="code"
+              ><i class="fas fa-code"></i> Code</a
+            >
+          </div>
+        </div>
+
+        <div class="card" id="card">
+          <div class="card-img card3"></div>
+          <div class="card-text">
+            <h2>Project</h2>
+            <p>text</p>
+            <br />
+            <p class="made-with">
+              Made with:
+            </p>
+            <br />
+          </div>
+          <div class="card-buttons">
+            <a
+              href=""
+              target="_blank"
+              class="demo"
+              ><i class="far fa-eye"></i> Demo</a
+            >
+            <a
+              href=""
+              target="_blank"
+              class="code"
+              ><i class="fas fa-code"></i> Code</a
+            >
+          </div>
+        </div>
+
+        <div class="card" id="card">
+          <div class="card-img card4"></div>
+          <div class="card-text">
+            <h2>Project</h2>
+            <p>text</p>
+            <br />
+            <p class="made-with">
+              Made with:        </p>
+            <br />
+          </div>
+          <div class="card-buttons">
+            <a
+              href=""
+              target="_blank"
+              class="demo"
+              ><i class="far fa-eye"></i> Demo</a
+            >
+            <a
+              href=""
+              target="_blank"
+              class="code"
+              ><i class="fas fa-code"></i> Code</a
+            >
+          </div>
+        </div>
+
+        <div class="card" id="card">
+          <div class="card-img card5"></div>
+          <div class="card-text">
+            <h2>project</h2>
+            <p>text</p>
+            <br />
+            <p class="made-with">
+              Made with:
+            </p>
+            <br />
+          </div>
+          <div class="card-buttons">
+            <a
+              href=""
+              target="_blank"
+              class="demo"
+              ><i class="far fa-eye"></i> Demo</a
+            >
+            <a
+              href=""
+              target="_blank"
+              class="code"
+              ><i class="fas fa-code"></i> Code</a
+            >
+          </div>
+        </div>
+
+        <div class="card" id="card">
+          <div class="card-img card6"></div>
+          <div class="card-text">
+            <h2>Project</h2>
+            <p>text</p>
+            <br />
+            <p class="made-with">
+              Made with:
+            </p>
+            <br />
+          </div>
+          <div class="card-buttons">
+            <a
+              href=""
+              target="_blank"
+              class="demo"
+              ><i class="far fa-eye"></i> Demo</a
+            >
+            <a
+              href=""
+              target="_blank"
+              class="code"
+              ><i class="fas fa-code"></i> Code</a
+            >
+          </div>
+        </div>
+
+        <div class="card" id="card">
+          <div class="card-img card7"></div>
+          <div class="card-text">
+            <h2>Project</h2>
+            <p>text</p>
+            <br />
+            <p class="made-with">
+              Made with:
+            </p>
+            <br />
+          </div>
+          <div class="card-buttons">
+            <a
+              href=""
+              target="_blank"
+              class="demo"
+              ><i class="far fa-eye"></i> Demo</a
+            >
+            <a
+              href=""
+              target="_blank"
+              class="code"
+              ><i class="fas fa-code"></i> Code</a
+            >
+          </div>
+        </div>
+
+        <div class="card" id="card">
+          <div class="card-img card8"></div>
+          <div class="card-text">
+            <h2>project</h2>
+            <p>text</p>
+            <br />
+            <p class="made-with">
+              Made with:
+            </p>
+            <br />
+          </div>
+          <div class="card-buttons">
+            <a
+              href=""
+              target="_blank"
+              class="demo"
+              ><i class="far fa-eye"></i> Demo</a
+            >
+            <a
+              href=""
+              target="_blank"
+              class="code"
+              ><i class="fas fa-code"></i> Code</a
+            >
+          </div>
+        </div>
+
+        <div class="card" id="card">
+          <div class="card-img card9"></div>
+          <div class="card-text">
+            <h2>project</h2>
+            <p>text</p>
+            <br />
+            <p class="made-with">
+              Made with:
+
+            </p>
+            <br />
+          </div>
+          <div class="card-buttons">
+            <a
+              href=""
+              target="_blank"
+              class="demo"
+              ><i class="far fa-eye"></i> Demo</a
+            >
+            <a
+              href=""
+              target="_blank"
+              class="code"
+              ><i class="fas fa-code"></i> Code</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+<footer id="resume">
+      <h2>
+        <i class="far fa-star"></i> <span>My</span> Resume
+        <i class="far fa-star"></i>
+      </h2>
+      <a class="resume" href="" target="_blank"
+        >Download <i class="fas fa-arrow-down"></i
+      ></a>
+    </footer>
+  </body>
+</html>
